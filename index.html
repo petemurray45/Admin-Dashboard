@@ -13,20 +13,50 @@
 <body>
     <div class="container">
         <span class="tile" id="nav">
-            <div class="navItem" id="dashboard">
-                <img src="images/lorem.png" class="logo">
+            <div class="navItem" id="dashboard">Dashboard</div>
+            <div class="navItem" id="home">
+                <img src="images/home.png">
+                <p>Home</p>
             </div>
-            <div class="navItem">Home</div>
-            <div class="navItem">Profile</div>
-            <div class="navItem">Messages</div>
-            <div class="navItem">History</div>
-            <div class="navItem">Tasks</div>
-            <div class="navItem" id="communities">Communities</div>
-            <div class="navItem">Settings</div>
-            <div class="navItem">Support</div>
-            <div class="navItem">Privacy</div>
+            <div class="navItem" id="profile">
+                <img src="images/user.png" class="userIMG">
+                <p>Profile</p>
+            </div>
+            <div class="navItem" id="messages">
+                <img src="images/email.png">
+                <p>Messages</p>
+            </div>
+            <div class="navItem" is="history">
+                <img src="images/clock.png">
+                <p>History</p>
+            </div>
+            <div class="navItem">
+                <img src="images/verified.png">
+                <p>Tasks</p>
+            </div>
+            <div class="navItem" id="communities">
+                <img src="images/people.png">
+                <p>Communities</p>
+            </div>
+            <div class="navItem" id="settings">
+                <img src="images/setting.png">
+                <p>Settings</p>
+            </div>
+            <div class="navItem" id="support">
+                <img src="images/question.png">
+                <p>Support</p>
+            </div>
+            <div class="navItem" is="privacy">
+                <img src="images/security.png">
+                <p>Privacy</p>
+            </div>
         </span>
-        <span class="tile" id="header"></span>
+        <span class="tile" id="header">
+            <div class="searchBar">
+                <img src="images/search.png" id="searchIcon">
+                <input type="text" placeholder="     Looking for something?....." id="bar">
+            </div>
+        </span>
         <span id="content">
             <div class="contentTile" id="tile1"></div>
             <div class="contentTile" id="tile2"></div>
